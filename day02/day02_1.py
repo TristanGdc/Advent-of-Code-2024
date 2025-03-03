@@ -1,4 +1,4 @@
-with open("Advent-of-Code-2024/day02/input02") as f:
+with open("Advent-of-Code-2024/inputs/input02") as f:
     lines = f.readlines()
 
     result = 0

@@ -20,7 +20,7 @@ def is_xmas(table, i, j):
         ):
             index+=1
             if index == 3:
-                print(dir, x, y)
+                # print(dir, x, y)
                 count+=1
                 break
             x+=dir[0]
@@ -28,7 +28,7 @@ def is_xmas(table, i, j):
 
     return count
 
-with open("Advent-of-Code-2024/day04/input04") as f:
+with open("Advent-of-Code-2024/inputs/input04") as f:
     table = f.readlines()
 
     count = 0

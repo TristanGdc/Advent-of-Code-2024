@@ -23,7 +23,7 @@ def evaluate(input):
     else:
         return 0
 
-with open("Advent-of-Code-2024/day03/input03") as f:
+with open("Advent-of-Code-2024/inputs/input03") as f:
     lines = f.readlines()
 
     answer = 0

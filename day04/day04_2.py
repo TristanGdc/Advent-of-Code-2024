@@ -5,7 +5,7 @@ def is_xmas(table, i, j):
     return ( diag_1 == ('M', 'S') or diag_1 == ('S', 'M') ) and (diag_2 == ('M', 'S') or diag_2 == ('S', 'M') )
 
 
-with open("Advent-of-Code-2024/day04/input04") as f:
+with open("Advent-of-Code-2024/inputs/input04") as f:
     table = f.readlines()
 
     count = 0

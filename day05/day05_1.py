@@ -4,7 +4,7 @@ def respects_rule(update, rule) -> bool:
     else:
         return update.index(rule[0]) < update.index(rule[1])
 
-with open("Advent-of-Code-2024/day05/input05") as f:
+with open("Advent-of-Code-2024/inputs/input05") as f:
     input = f.readlines()
 
     # Clean input

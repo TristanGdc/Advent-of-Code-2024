@@ -52,7 +52,7 @@ def step(area: np.array, pos: np.array, direction: np.array):
         case 'out':
             raise StopIteration()
 
-with open("Advent-of-Code-2024/day06/input06") as f:
+with open("Advent-of-Code-2024/inputs/input06") as f:
     area = np.array(list(map(lambda l : list(l.strip()) , f.readlines())))
 
     for i, l in enumerate(area):

@@ -23,7 +23,7 @@ def sort(update, rules) -> list:
 
     return ordered
 
-with open("Advent-of-Code-2024/day05/input05") as f:
+with open("Advent-of-Code-2024/inputs/input05") as f:
     input = f.readlines()
 
     rules = list(map(lambda e : list(map(lambda i : int(i), e.strip().split('|'))), input[:input.index('\n')]))
